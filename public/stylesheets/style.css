@@ -52,6 +52,10 @@ nav.navbar.navbar-expand-md {
 
 a.nav-link{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+  color: #000;
+}
+a.nav-link:hover{
+  color: #ffbd59;
 }
 .navbar-dark .navbar-nav .nav-item .nav-link{
   color: black;
@@ -329,8 +333,7 @@ header .scroll-header {
   from {transform: translateY(-100%)};
   to {transform: translateY(0)};
 }
-.card img.card-img-top {
-}
+
 .col-sm-4 .card{
   margin: 10px;
   width: 100%   ;

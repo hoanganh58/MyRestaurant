@@ -6,7 +6,7 @@
         </h1>
         <div class="col-sm-4">
             <div class="cardi m-0">
-                <img class="card-img-top" src="/product_images/<%= p.id %>/<%= p.image %>" alt="">
+                <img style="position: relative; right: -45px;" class="card-img-top" src="/product_images/<%= p.id %>/<%= p.image %>" alt="">
                 <div class="card-body text-center" style="font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;">
                     <a href="#" class="card-title a" style="font-size: 18px">
                         <%= p.title %>
@@ -38,7 +38,7 @@
                     %>
                     <div class="col-sm-6 mb-3">
                         <a data-fancybox="gallery" href="/product_images/<%= p.id %>/gallery/<%= image %>">
-                            <img src="/product_images/<%= p.id %>/gallery/<%= image %>" alt="">
+                            <img style="position: relative; right: -45px;" src="/product_images/<%= p.id %>/gallery/<%= image %>" alt="">
                         </a>
                     </div>
                     <% } }); %>

@@ -43,6 +43,9 @@ header .nav-mobi .desktop-cart-wrapper1 > a, #home-banner1 .home-collection-wrap
 nav.navbar.navbar-expand-md a {
   color: black;
 }
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  color: red;
+}
 nav.navbar.navbar-expand-md {
   background-color: #ffbd59;
   position: fixed;
@@ -62,7 +65,6 @@ a.nav-link:hover{
   font-style: initial;
   font-weight: 500;
   font-size: 20px;
-
 }
 .carousel-item.row.no-gutters .col-3 {
   padding: 5px;
@@ -485,6 +487,10 @@ input[type=search]:focus {
 .footer{
   color: black;
   padding-right: 20px;
+}
+.footer:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 input:-moz-placeholder {

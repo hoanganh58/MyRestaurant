@@ -58,13 +58,13 @@
             </a>
           </li>
           <% if (user) { %>
-            <li><a class="nav-link" href="/users/logout"><i class="fas fa-sign-out-alt"></i></a></li>
+            <li><a class="nav-link" href="/users/logout"><i class="fas fa-sign-out-alt"></i> <span style="color: black;position: relative; top:5px; left: 3px;"> <%= user.username%> </span> </a></li>
             <% } else { %>
               <li><a class="nav-link" href="/users/register"><i class="fas fa-user"></i></a></li>
               <li><a class="nav-link" href="/users/login"><i class="fas fa-sign-in-alt"></i></a></li>
               <% } %>
                 <% if (user && user.admin==1 ) { %>
-                  <li><a class="nav-link" href="/admin/pages"><i class="fas fa-user-edit"></i></a></li>
+                  <li><a class="nav-link" href="/admin/pages"><i class="fas fa-user-edit"></i><span style="color: black;position: relative; top:5px; left: 3px;"> Admin </span></a></li>
                   <% } %>
         </ul>
       </div>
